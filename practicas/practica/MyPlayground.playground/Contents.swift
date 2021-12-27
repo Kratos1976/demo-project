@@ -40,3 +40,31 @@ if t == 1 {
         print("\(n1) menor")
     }
 }
+
+var vocal = "hola"
+
+if vocal == "a" {
+    print("A")
+} else {
+    if vocal == "e" {
+        print("E")
+    } else {
+        if vocal == "i" {
+            print("I")
+        } else {
+            if vocal == "o" {
+                print("O")
+            } else {
+                if vocal == "u" {
+                    print("U")
+                    
+                } else {
+                    print("No es vocal")
+                }
+
+            }
+        }
+    }
+
+}
+
