@@ -41,7 +41,7 @@ if t == 1 {
     }
 }
 
-var vocal = "hola"
+var vocal = "a"
 
 if vocal == "a" {
     print("A")
@@ -67,4 +67,35 @@ if vocal == "a" {
     }
 
 }
+
+switch vocal {
+case "a":
+    print("A")
+case "e":
+    print("E")
+case "i":
+    print("I")
+case "o":
+    print("O")
+case "u":
+    print("U")
+default:
+    print("No es vocal")
+
+}
+
+enum TypeEnum: String {
+    case uno = "1"
+    case dos = "2"
+}
+
+let type: TypeEnum = .dos
+
+switch type {
+case .uno:
+    print("1")
+case .dos:
+    print("2")
+}
+
 
